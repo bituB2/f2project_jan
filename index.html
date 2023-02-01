@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="gallery">
+        <img src="/game1.jpg" alt="game" id="first-image">
+        <img src="/game2.jpg" alt="game" id="second-image">
+        <img src="/game3.jpg" alt="game" id="third-image">
+        <img src="/game4.jpg" alt="game" id="fourth-image">
+    </div>
+
+    <form class="form">
+        <input type="text" placeholder="Name" id="name" required>
+        <input type="email" placeholder="Email" id="email" required>
+        <input type="text" placeholder="Username" id="username" required>
+        <input type="submit" value="Submit">
+    </form>
+
+    <div class="user-details">
+        <p>Name: <span id="display-name"></span></p>
+        <p>Username: <span id="display-username"></span></p>
+    </div>
+    <div id="dice-container" style="display: none;">
+        <img src="dies.jpg" id="dice">
+        <p id="dice-value"></p>
+    </div>
+
+    <div id="coupon-container" style="display: none;">
+        <p id="coupon"></p>
+        <img src="Congratulation.jpeg" id="congrats">
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
